@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Portfolio de Yohanny Murillo, desarrolladora web especializada en front-end con conocimientos en HTML, CSS, JavaScript, y más.">
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap" rel="stylesheet">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Yohanny Murillo | Desarrolladora front-end</title>
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Yohanny Murillo",
+      "jobTitle": "Web Developer",
+      "url": "",
+      "sameAs": [
+        "https://www.linkedin.com/in/yohanny-murillo",
+        "https://github.com/Hany-m"
+      ]
+    }
+  </script>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>YOHANNY MURILLO</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">Sobre mí</a></li>
+        <li><a href="#skills" class="nav-link">Habilidades</a></li>
+        <li><a href="#projects" class="nav-link">Proyectos</a></li>
+        <li><a href="#contact" class="nav-link">Contáctame</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <ion-icon class="times" name="close-outline"></ion-icon>
+      </button>
+    </nav>
+    
+    <!-- Sección Hero -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/principal img.svg"
+        alt="Ilustracion"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">Sobre mí</h2>
+        <p class="bio-text">
+          Soy una desarrolladora frontend apasionada por la creación de experiencias digitales atractivas y funcionales. Me especializo en tecnologías como HTML, CSS, JavaScript y frameworks modernos. Mi enfoque está en la usabilidad y el diseño responsivo, asegurando que cada proyecto sea accesible y eficiente.
+        </p>
+      </div>
+    </section>
+
+    <!-- Más sobre mí -->
+    <section class="more-about">
+      <h2>Más sobre mí</h2>
+      <p>
+        Siempre me ha fascinado cómo la tecnología y el diseño pueden trabajar juntos para crear experiencias increíbles. Como desarrolladora frontend, disfruto convertir ideas en interfaces intuitivas y dinámicas.
+      </p>
+      <p>
+        Mi objetivo es desarrollar experiencias digitales que no solo sean visualmente atractivas, sino también accesibles y funcionales para todos. Siempre busco aprender y mejorar mis habilidades para ofrecer soluciones innovadoras.
+      </p>
+      <p>
+        Creo que el desarrollo frontend no es solo código, sino una forma de conectar con los usuarios a través del diseño y la funcionalidad. Me esfuerzo por escribir código limpio, optimizado y accesible para todos.
+      </p>
+      <p>
+        A futuro, me gustaría especializarme en [por ejemplo: "diseño de UI/UX", "animaciones web avanzadas", "optimización de rendimiento web"]. Estoy comprometida con seguir aprendiendo y creciendo en la industria del desarrollo frontend.
+      </p>
+    </section>
+
+    <!-- Habilidades -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">Habilidades</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8html-logo.svg"
+            alt="html logo"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8css-logo.svg"
+            alt="css logo"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="./assets/icons/icons8-javascript.svg"
+            alt="javascript logo"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/bootstrap-logo.svg"
+            alt="bootstrap logo"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-python.png"
+            alt="python logo"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-git.svg"
+            alt="git logo"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Algunos proyectos</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img src="/assets/images/proximamente-proximamente-abierto.png" 
+            alt="Imagen proyecto1"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Proyecto 1</h3>
+          <p class="project-details">
+            <!--Descripción-->
+          </p>
+          <a href="#" target="_blank" class="project-link">Click aquí</a>
+        </div>
+        <div class="project-container project-card">
+        <img src="/assets/images/proximamente-proximamente-abierto.png"   
+          alt="Imagen proyecto2"
+          loading="lazy" 
+          class="proyecy-pic"
+          />
+          <h3 class="project-title">Proyecto 2</h3>
+          <p class="project-details">
+            <!--Descripción-->
+          </p>
+          <a href="#" target="_blank" class="project-link">Click aquí</a>
+        </div>
+        <div class="project-container project-card">
+          <img src="/assets/images/proximamente-proximamente-abierto.png"
+            alt="Imagen proyecto 3"
+            loading="lazy"
+            class="project-pic"/>
+          <h3 class="project-title">Proyecto 3</h3>
+          <p class="project-details">
+            <!--Descripción-->
+          </p>
+          <a href="#" target="_blank" class="project-link">Click aquí</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Contáctame</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/mzzpjend" method="POST">
+            <div class="form-control">
+              <label for="name">Nombre <span class="required">*</span></label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Ingrese su nombre"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Correo electrónico <span class="required">*</span></label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Ingrese su correo electrónico"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="name">Teléfono</label>
+              <input
+                type="tel"
+                id="tel"
+                name="sender-tel"
+                placeholder="Ingrese su teléfono"
+                class="input-field"
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Mensaje <span class="required">*</span></label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Mensaje..."
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Enviar"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social -->
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/yohanny-murillo/" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"/>
+      </a>
+      <a href="https://github.com/Hany-m" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" 
+        alt="Github" 
+        loading="lazy"
+        class="socicon"/>
+    </a>
+          <a href="https://wa.me/573135566267" target="_blank"
+        ><img src="assets/icons/icons8-whatsapp.gif" 
+        alt="Whatsapp" 
+        loading="lazy"
+        class="socicon"/>
+    </a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt="acroll-up"
+    /></i>
+
+    <!-- Footer -->
+    <footer>
+      <p class="copy">&copy; Copyright 2025</p>
+      <p class="copy">
+        Yohanny Murillo &#x2661;
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
