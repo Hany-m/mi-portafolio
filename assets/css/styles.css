@@ -6,8 +6,8 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #fcfcfc; /* Fondo general */
-  --bg-tone: #e6e9f0; /* Fondo con tono suave para todo el cuerpo */
+  --bg-color: #fcfcfc; 
+  --bg-tone: #e6e9f0; 
   --primary-color: #3b4b87; 
   --secondary-color: #ff7235;
   --primary-shadow: #8b8eaf;
@@ -16,7 +16,7 @@
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
   --transition: 0.3s;
-  --skills-bg-color: #d2d9f7; /* Fondo habilidades */
+  --skills-bg-color: #d2d9f7; 
 }
 
 body {
@@ -47,7 +47,7 @@ nav {
 nav .menu-container {
   position: relative;
   display: flex;
-  justify-content: flex-start; /* Alinea el ícono a la derecha */
+  justify-content: flex-start; 
 }
 
 nav h1 {
@@ -57,7 +57,7 @@ nav h1 {
 nav a {
   color: #fff; 
   transition: var(--transition);
-  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  text-decoration: none; 
 }
 
 nav a:hover {
@@ -67,7 +67,7 @@ nav a:hover {
 }
 
 nav ul {
- display: flex; /* Muestra el menú en línea (horizontal) por defecto */
+  display: flex; 
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -75,7 +75,7 @@ nav ul {
 }
 
 nav ul.show {
-  display: block; /* Muestra el menú cuando se activa */
+  display: block; 
 }
 
 
@@ -104,7 +104,7 @@ nav a:hover {
 
 .burger-menu {
   display: none;
-  color: #fff;
+  color: #ffffff;
   font-size: 2rem;
   border: 0;
   background-color: transparent;
@@ -116,9 +116,9 @@ nav a:hover {
 }
 
 .burger-menu div {
-  height: 4px;  /* Altura de las barras */
-  background-color: white; /* Color de las barras */
-  width: 100%;  /* Las barras ocupan todo el ancho del ícono */
+  height: 4px; 
+  background-color: white; 
+  width: 100%;  
   margin: 5px 0;
 }
 
@@ -313,8 +313,8 @@ nav a:hover {
 }
 
 .required {
-    color: red; /* Cambia el color del asterisco */
-    font-size: 0.8rem; /* Ajusta el tamaño del asterisco */
+    color: red; 
+    font-size: 0.8rem; 
 }
 
 .input-field::placeholder {
@@ -413,27 +413,27 @@ footer {
   }
 
   .hero {
-    padding: 1rem; /* Ajusta el padding para pantallas pequeñas */
+    padding: 1rem; 
   }
 
   .hero img {
-    width: 100%; /* Asegura que la imagen se ajuste al ancho de la pantalla */
-    height: auto; /* Mantiene la proporción de la imagen */
+    width: 100%; 
+    height: auto; 
     object-fit: cover;
   }
   
   #sobre-mi {
-    order: -1; /* Mueve "Sobre mí" antes que "Más sobre mí" */
+    order: -1; 
   }
 
   nav ul {
-    display: none; /* Oculta el menú en línea */
-    position: absolute; /* Lo posiciona fuera del flujo normal */
-    top: 100%; /* Lo coloca debajo del nav */
+    display: none; 
+    position: absolute; 
+    top: 100%;
     right: 5%;
     background-color: var(--primary-color);
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
-    flex-direction: column; /* Apila los elementos verticalmente */
+    flex-direction: column; 
     padding: 10px;
     border-radius: 8px;
     width: auto;
@@ -443,9 +443,9 @@ footer {
   .burger-menu {
     display: block;
   }
-  /* Mostrar el menú cuando la clase 'show' esté activa */
+  
   nav ul.show {
-    display: flex; /* Muestra el menú cuando se activa */
+    display: flex; 
   }
 
   .more-about {
