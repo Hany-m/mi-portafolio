@@ -67,7 +67,7 @@ nav a:hover {
 }
 
 nav ul {
-  display: flex; 
+ display: flex; /* Muestra el menú en línea (horizontal) por defecto */
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -427,9 +427,9 @@ footer {
   }
 
   nav ul {
-    display: none; 
-    position: absolute; 
-    top: 100%;
+    display: none; /* Oculta el menú en línea */
+    position: absolute; /* Lo posiciona fuera del flujo normal */
+    top: 100%; /* Lo coloca debajo del nav */
     right: 5%;
     background-color: var(--primary-color);
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
